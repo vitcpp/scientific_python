@@ -1,0 +1,3 @@
+https://github.com/vitcpp/sphereplot
+https://github.com/CosmicHitchhiker/tdsreduction
+https://github.com/CosmicHitchhiker/tdsreduction_gui
