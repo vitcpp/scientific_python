@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(simple C)
+file(GLOB SOURCES simple.c)
+include_directories(/usr/include/python3.10)
+add_library(simple SHARED ${SOURCES})
+add_custom_target(run python main.py)
