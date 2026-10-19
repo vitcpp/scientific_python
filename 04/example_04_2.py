@@ -6,8 +6,9 @@ try:
     f = open("data.dat", "rt")
     content = f.read()
     print(content)
-#except Exception as e:
-#     print("ERROR: Ошибка чтения файла ({})".format(e))
+except Exception as e:
+    print(type(e))
+    print("ERROR: Ошибка чтения файла ({})".format(e))
 finally:
     print("FINALLY!!!")
     if f != None:

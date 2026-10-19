@@ -1,4 +1,4 @@
-vmin = 9007199254740990.0
+vmin = float(2**53 - 1)
 vmax = vmin + 10.0
 v = vmin
 while v < vmax:
