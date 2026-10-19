@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/mypackage/__init__.py
+src/mypackage/algo.py
+src/mypackage.egg-info/PKG-INFO
+src/mypackage.egg-info/SOURCES.txt
+src/mypackage.egg-info/dependency_links.txt
+src/mypackage.egg-info/top_level.txt

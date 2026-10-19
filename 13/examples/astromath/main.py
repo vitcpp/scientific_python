@@ -13,6 +13,7 @@ l = list(range(100_000_000))
 
 tbeg = time.time()
 #r = amsum(range(100_000_000))
-r = amsum(l)
+#r = amsum(l)
+r = sum(range(100_000_000))
 tend = time.time()
 print(f"time: {tend - tbeg}")

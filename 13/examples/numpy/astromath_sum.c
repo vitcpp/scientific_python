@@ -43,10 +43,12 @@ PyObject* astromath_sum(PyObject* self, PyObject* args)
             printf("shape[%d]: %d\n", i, (int)pshape[i]);
     }
 
+    printf("pstrides: %ld\n", pstrides[0]);
+
     {
-        uint64_t* pd = (uint64_t*)pdata;
-        for (i = 0; i < 100; ++i)
-            result += pd[i];
+        uint64_t* pd = (uint64_t *)pdata;
+        for (i = 0; i < pshape[0]; ++i)
+            result += *(int64_t*)((char*)pd + i * pstrides[0]);
     }
 
     return PyLong_FromLong(result);

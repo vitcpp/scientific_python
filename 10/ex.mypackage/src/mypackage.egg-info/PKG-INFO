@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: mypackage
+Version: 0.0.1
+Summary: A small example package
+Author-email: Ivan Ivanov <ivan@example.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+Мой Проект
+
+...
+
